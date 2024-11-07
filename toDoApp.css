@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(to right, rgb(6, 6, 92), rgb(13, 13, 202));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainWrapper{
+    margin-top: 5%;
+    background-color: #AEB1B0;
+    width: 50%;
+    height: 80vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toDoWrapper{
+        background-color: #ffffff;
+        width:98%;
+        height: 78vh;
+        border-radius: 15px;
+         display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.section1{
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    /* background-color: blue; */
+    display: flex;
+    width: 80%;
+    height: 15vh;
+    display: grid;
+    margin: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+        position: relative;
+}
+.section1 .todoTitle{
+    margin: auto;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 70%;
+}
+.todoTitle .themainTitle{
+    font-weight: 800;
+    font-size: larger;
+    color: rgb(3, 3, 102);
+    width: 100%;
+    height: 100%;
+}
+.simpleLogo{
+    color: rgb(3, 3, 102);
+}
+.addTask{
+    margin-top: 35px;
+    margin: auto;
+    /* border: 3px solid black; */
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    /* height: auto; */
+}
+.addTask input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(3, 3, 102);
+    border-radius: 25px;
+    color: rgb(3, 3, 102);
+    padding-left: 20px;
+    font-size: medium;
+    font-weight: 400;
+}
+.addTask input::placeholder{
+    color: rgb(3, 3, 102);
+    /* padding-left: 10px; */
+
+}
+.addTask .add {
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(3, 3, 102);
+        position: absolute;
+        top: 50%;
+        right: 1px;
+        transform: translateY(-50%);
+        /* background-color: transparent; */
+        border: none;
+        cursor: pointer;
+        
+}
+.addTask .add span{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+.sectionTwo{
+    margin: auto;
+    border: 1px solid rgb(3, 3, 102);
+    border-radius: 15px;
+    padding-top: 20px;
+    /* background-color: blue; */
+    display: flex; 
+    width: 80%;
+    height: 50vh;
+    display: grid; 
+    /* align-items: center; */
+    /* justify-content: center;  */
+    /* margin-top: px; */
+}
+.thelist{
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    /* background-color: #7c1c1c; */
+}
+.task1{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.thebox{
+    /* background-color: #ffffff; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.themainBox{
+    /* background-color: rgb(253, 253, 253); */
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid ;
+    cursor: pointer;
+}
+.themainBox svg{
+    color: rgb(3, 3, 102);
+}
+.task1 li{
+    color: rgb(3, 3, 102);
+    font-size: medium;
+    font-weight: 500;
+}
+.theDeleteButton{
+    /* background-color: #ffffff; */
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.theMaindeleteBox{
+    /* background-color: rgb(253, 253, 253); */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        /* border: 1px solid; */
+}
+.theMaindeleteBox svg{
+    width: 100%;
+    color: rgb(3, 3, 102);
+}
